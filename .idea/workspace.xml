@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="344534bb-8dff-4819-83a5-c39f34540be2" name="Changes" comment="recursive function fib(1,1,..) added">
+    <list default="true" id="344534bb-8dff-4819-83a5-c39f34540be2" name="Changes" comment="func fib(1,1,..) fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699594527554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="func fib(1,1,..) fix">
+      <created>1699594844788</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699594844788</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating main class" />
     <MESSAGE value="cout for &quot;Hello World&quot; added" />
     <MESSAGE value="recursive function fib(1,1,..) added" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursive function fib(1,1,..) added" />
+    <MESSAGE value="func fib(1,1,..) fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="func fib(1,1,..) fix" />
   </component>
 </project>

@@ -8,18 +8,20 @@ public class Main {
         //Scanner sc = new Scanner(System.in); Про ввод не совсем понял как реализовать нужно
         //fib(sc.nextInt()); // Это если пользователь вводит
 
-        System.out.println(fib(10)); // Это если хардкод
+        fib(10); // Это если хардкод
 
     }
 
-    public static int fib(int n) {
-        if (n <= 1) {
-            return 0;
+    public static void fib(int n) {
+        int a = 0, b = 1, c;
+        System.out.println(0);
+
+        for (int i = 2; i <= n; i++) {
+            c = a;
+            a += b;
+            b = c;
+            System.out.println(a);
         }
-        else if (n == 2) {
-            return 1;
-        }
-        return fib(n - 1) + fib(n - 2);
     }
 }
 
